@@ -11045,3 +11045,20 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* === Custom Theme Override === */
+:root {
+  --bs-primary-rgb: 25, 71, 67 !important; /* Deep Emerald Green */
+}
+
+/* Force primary backgrounds to use your new color */
+.bg-primary {
+  background-color: rgb(var(--bs-primary-rgb)) !important;
+}
+
+/* Optional – make buttons & links match */
+.btn-primary,
+a {
+  color: white;
+  background-color: rgb(var(--bs-primary-rgb)) !important;
+  border-color: rgb(var(--bs-primary-rgb)) !important;
+}
