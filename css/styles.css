@@ -11047,7 +11047,7 @@ html {
 }
 /* === Custom Theme Override === */
 :root {
-  --bs-primary-rgb: 42, 63, 84 !important; /* Indigo Steel Blue */
+  --bs-primary-rgb: 54, 54, 61 !important; /* Indigo Steel Blue */
 }
 
 .bg-primary {
