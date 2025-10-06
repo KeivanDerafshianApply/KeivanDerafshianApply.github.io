@@ -11047,15 +11047,13 @@ html {
 }
 /* === Custom Theme Override === */
 :root {
-  --bs-primary-rgb: 25, 71, 67 !important; /* Deep Emerald Green */
+  --bs-primary-rgb: 42, 63, 84 !important; /* Indigo Steel Blue */
 }
 
-/* Force primary backgrounds to use your new color */
 .bg-primary {
   background-color: rgb(var(--bs-primary-rgb)) !important;
 }
 
-/* Optional – make buttons & links match */
 .btn-primary,
 a {
   color: white;
