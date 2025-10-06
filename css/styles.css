@@ -11060,3 +11060,8 @@ a {
   background-color: rgb(var(--bs-primary-rgb)) !important;
   border-color: rgb(var(--bs-primary-rgb)) !important;
 }
+/* === Custom Navbar Styling === */
+.bg-secondary {
+  background-color: rgba(36, 45, 58, 0.9) !important; /* semi-transparent dark navy */
+  backdrop-filter: blur(5px); /* gives a glassy blur effect */
+}
