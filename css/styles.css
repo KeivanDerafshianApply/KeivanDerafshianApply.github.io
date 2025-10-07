@@ -11085,3 +11085,24 @@ a {
 .cv-btn i {
   margin-right: 8px;
 }
+.cv-btn {
+  display: inline-block;
+  border: 2px solid #ffffff;       /* creates the rectangular outline */
+  border-radius: 12px;             /* makes corners slightly curved */
+  color: #ffffff;                  /* text color */
+  background-color: transparent;   /* keeps background clear */
+  padding: 10px 30px;              /* spacing inside the rectangle */
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cv-btn:hover {
+  background-color: #ffffff;       /* fill color on hover */
+  color: #222222;                  /* text color changes on hover */
+}
+
+.cv-btn i {
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
