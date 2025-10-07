@@ -11065,32 +11065,23 @@ a {
   background-color: rgba(36, 45, 58, 0.9) !important; /* semi-transparent dark navy */
   backdrop-filter: blur(5px); /* gives a glassy blur effect */
 }
-/* === Custom CV Button === */
-.cv-button {
+.cv-btn {
   display: inline-block;
-  padding: 12px 30px;
-  color: #ffffff;
-  border: 2px solid #ffffff;         /* white rectangular border */
-  text-decoration: none;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  border-radius: 0.4rem;             /* slightly rounded corners */
-  transition: all 0.3s ease;
-}
-
-.cv-button:hover {
-  background-color: #ffffff;
-  color: rgb(var(--bs-primary-rgb)); /* inverts color on hover */
-  text-decoration: none;
-}
-.btn-outline-light {
   border: 2px solid #ffffff;
+  border-radius: 12px; /* curved rectangular */
   color: #ffffff;
-  background: transparent;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.btn-outline-light:hover {
+.cv-btn:hover {
   background-color: #ffffff;
   color: #222222;
+}
+
+.cv-btn i {
+  color: #ff0000; /* PDF red icon color */
 }
