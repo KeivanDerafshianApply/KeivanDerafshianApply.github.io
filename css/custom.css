@@ -1,0 +1,21 @@
+.cv-btn {
+  display: inline-block;
+  border: 2px solid #ffffff !important;   /* stronger, ensures visible border */
+  border-radius: 12px;
+  color: #ffffff !important;
+  background-color: transparent !important;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cv-btn:hover {
+  background-color: #ffffff !important;
+  color: #222222 !important;
+}
+
+.cv-btn i {
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
