@@ -11077,29 +11077,21 @@ a {
   transition: all 0.3s ease;
 }
 
-.cv-btn:hover {
-  background-color: #ffffff;
-  color: #222222;
-}
-
-.cv-btn i {
-  margin-right: 8px;
-}
 .cv-btn {
   display: inline-block;
-  border: 2px solid #ffffff;       /* creates the rectangular outline */
-  border-radius: 12px;             /* makes corners slightly curved */
-  color: #ffffff;                  /* text color */
-  background-color: transparent;   /* keeps background clear */
-  padding: 10px 30px;              /* spacing inside the rectangle */
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px 30px;
   font-size: 1.2rem;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .cv-btn:hover {
-  background-color: #ffffff;       /* fill color on hover */
-  color: #222222;                  /* text color changes on hover */
+  background-color: #ffffff;
+  color: #222222;
 }
 
 .cv-btn i {
