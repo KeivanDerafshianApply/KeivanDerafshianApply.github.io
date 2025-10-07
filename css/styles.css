@@ -11083,3 +11083,14 @@ a {
   color: rgb(var(--bs-primary-rgb)); /* inverts color on hover */
   text-decoration: none;
 }
+.btn-outline-light {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #222222;
+}
