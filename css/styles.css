@@ -11068,7 +11068,7 @@ a {
 .cv-btn {
   display: inline-block;
   border: 2px solid #ffffff;
-  border-radius: 12px; /* curved rectangular */
+  border-radius: 12px;
   color: #ffffff;
   background-color: transparent;
   padding: 10px 30px;
@@ -11083,5 +11083,5 @@ a {
 }
 
 .cv-btn i {
-  color: #ff0000; /* PDF red icon color */
+  margin-right: 8px;
 }
