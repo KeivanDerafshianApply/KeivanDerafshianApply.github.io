@@ -19,18 +19,23 @@
   font-size: 1.1rem;
   vertical-align: middle;
 }
-/* --- Project Card Equal Height Fix --- */
-.portfolio .row {
-  display: flex; /* Enable Flexbox for the row */
-  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+/* --- Project Card Equal Height Fix v2 --- */
+#projects .row.justify-content-center {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.portfolio .card {
-  height: 100%; /* Make card fill the vertical space */
-  display: flex; /* Enable Flexbox inside the card */
-  flex-direction: column; /* Stack card elements vertically */
+#projects .col-md-8.col-lg-6 {
+    display: flex; /* Make column a flex container */
+    flex-direction: column; /* Stack content vertically */
 }
 
-.portfolio .card-body {
-  flex-grow: 1; /* Allow card body to grow and push footer down */
+#projects .card {
+    flex-grow: 1; /* Allow card to grow to fill column */
+    display: flex; /* Make card inner content flex */
+    flex-direction: column; /* Stack card content vertically */
+}
+
+#projects .card-body {
+    flex-grow: 1; /* Allow card body to expand */
 }
