@@ -29,10 +29,13 @@
     display: flex; /* Make column a flex container */
     flex-direction: column; /* Stack content vertically */
 }
-/* --- Equal Width CV Buttons v2 --- */
+/* --- Equal Width CV Buttons v3 --- */
 #about .text-center .cv-btn {
-    min-width: 220px; /* Adjust this value if needed */
+    width: 230px; /* Force a specific width - adjust px if needed */
     display: inline-block;
     text-align: center;
-    margin-bottom: 5px; /* Add a little bottom margin for spacing if they wrap */
+    margin-bottom: 5px; /* Keeps spacing if they wrap on small screens */
+    padding-left: 10px; /* Adjust padding if text looks off-center */
+    padding-right: 10px;
+    box-sizing: border-box; /* Include padding in the total width */
 }
