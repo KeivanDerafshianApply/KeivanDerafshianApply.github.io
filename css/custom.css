@@ -29,19 +29,10 @@
     display: flex; /* Make column a flex container */
     flex-direction: column; /* Stack content vertically */
 }
-/* --- Equal Width CV Buttons --- */
-.cv-btn {
-  min-width: 220px; /* Adjust this pixel value if needed */
-  display: inline-block; /* Helps ensure width is applied correctly */
-  text-align: center; /* Keep text centered */
-}
-
-#projects .card {
-    flex-grow: 1; /* Allow card to grow to fill column */
-    display: flex; /* Make card inner content flex */
-    flex-direction: column; /* Stack card content vertically */
-}
-
-#projects .card-body {
-    flex-grow: 1; /* Allow card body to expand */
+/* --- Equal Width CV Buttons v2 --- */
+#about .text-center .cv-btn {
+    min-width: 220px; /* Adjust this value if needed */
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px; /* Add a little bottom margin for spacing if they wrap */
 }
