@@ -38,11 +38,14 @@
 #about .text-center .cv-btn {
     display: block;     /* Make each button take its own line */
     width: 230px;       /* Keep the width consistent (adjust px if needed) */
+    height: 50px;       /* ADD THIS: Set a specific height (adjust px if needed) */
     max-width: 100%;    /* Prevent overflow on small screens */
     margin-left: auto !important;  /* Force auto margin for centering */
     margin-right: auto !important; /* Force auto margin for centering */
     margin-bottom: 10px; /* Add space below each button */
     box-sizing: border-box;
+    /* Ensure text aligns vertically if needed */
+    line-height: normal; /* Or adjust padding-top/bottom */
 }
 
 /* Remove bottom margin from the very last button */
