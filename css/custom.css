@@ -29,18 +29,23 @@
     display: flex; /* Make column a flex container */
     flex-direction: column; /* Stack content vertically */
 }
-/* --- Stack CV Buttons Vertically --- */
-#about .text-center .cv-btn {
-    display: block;    /* Make each button take its own line */
-    width: 230px;      /* Keep the width consistent (adjust px if needed) */
-    max-width: 100%;   /* Prevent overflow on very small screens */
-    margin-left: auto; /* Center the block button */
-    margin-right: auto;/* Center the block button */
-    margin-bottom: 10px; /* Add space below each button */
-    box-sizing: border-box; /* Include padding in width calculation */
+/* --- Stack & Center CV Buttons Vertically v2 --- */
+#about .text-center {
+    /* Ensure the parent allows block centering */
+    display: block;
 }
 
-/* Optional: Remove bottom margin from the very last button in that group */
+#about .text-center .cv-btn {
+    display: block;     /* Make each button take its own line */
+    width: 230px;       /* Keep the width consistent (adjust px if needed) */
+    max-width: 100%;    /* Prevent overflow on small screens */
+    margin-left: auto !important;  /* Force auto margin for centering */
+    margin-right: auto !important; /* Force auto margin for centering */
+    margin-bottom: 10px; /* Add space below each button */
+    box-sizing: border-box;
+}
+
+/* Remove bottom margin from the very last button */
 #about .text-center .cv-btn:last-of-type {
     margin-bottom: 0;
 }
